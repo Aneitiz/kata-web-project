@@ -1,0 +1,173 @@
+/* TABLET */
+
+@media(min-width: 768px){
+    .header{
+        justify-content: flex-start;
+        padding: 24px 24px 0px 24px;
+    }
+
+    .header__burger{
+        margin-right: 20px;
+    }
+    
+    .divider__tablet{
+        display: block;
+        margin-right: 20px;
+    }
+
+    .header__logo{
+        margin-right: 35.5%;
+    }
+    
+    .mobile--divider{
+        display: none;
+    }
+
+    .header__tablet-group{
+        display: flex;
+    }
+    .header__call{
+        margin-right: 16px;
+    }
+    .header__chat{
+        margin-right: 16px;
+    }
+    .header__profile{
+        margin-right: 20px;
+    }
+
+    .header__repair-request{
+        margin-right: 16px;
+    }
+
+    .title__main {
+        margin-bottom: 32px;
+      }
+      .title-wrapper::before{
+        margin-right: 24px;
+      }
+
+      .services{
+        margin-left: 24px;
+      }
+
+      .services__button{
+        margin-bottom: 32px;
+      }
+
+    .dell-info{
+        display: flex;
+        margin: 0;
+        padding-left: 24px;
+    }
+
+    .dell-info__text{
+        width: 52%;
+        font-family: 'TT Lakes';
+        font-size: 14px;
+        line-height: 20px;
+        width: 312px;
+        margin-right: 48px;
+        color: #1B1C21;
+    }
+    
+    .dell-info__paragraph{
+        width: 100%;
+    }
+
+    .dell-info__paragraph--tablet{
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .dell-info-image-wrapper{
+        padding-right: 25px;
+    }
+    .info-image{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media (min-width: 1120px) {
+    .container{
+        margin: 0 auto;
+    }
+    .container .header{
+        display: none;
+    }
+
+     .main{
+        padding-top: 40px;
+    }
+
+    .title__main{
+        width: 50%;
+    }
+
+    .title-wrapper{
+        max-height: 40px;
+        margin-bottom: 8px;
+    }
+    .title-wrapper::before{
+        margin-right:30px;
+      }
+
+    .desktop{
+        display: flex;
+        justify-content: end;
+        width: 50%;
+        max-height: 40px;
+        padding-right: 2%;
+    }
+
+    .repair__button--desktop{
+        display: flex;
+        max-height: 40px;
+        margin-right: 43px;
+    }
+
+    .repair-status__button--desktop{
+        display: flex;
+        max-height: 40px;
+    }
+
+    .repair__desktop-text{
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.20000000298023224px;
+        text-align: left;
+        padding-top:8px;
+        margin-right: 8px;
+    }
+
+    /* На макете отзывы показаны снизу, можно было написать wrap,
+        но в условия на git написано что везде все должно быть одинаково
+        поэтому я оставил scroll 
+    */
+
+    .services{
+        margin-left: 32px;
+    }
+    .services__button{
+        margin-right: 19px;
+        margin-bottom: 0px;
+    }
+
+    .dell-info{
+        padding-left: 34px;
+    }
+
+    .dell-info__text{
+        width: 50%;
+        margin-right: 3%;
+    }
+
+    .dell-info-image-wrapper{
+        width:50%;
+    }
+
+    .dell-info__text-desktop{
+        display: contents;
+    }
+}

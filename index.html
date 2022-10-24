@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/adaptive.css" />
+    <title>CPS Service</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="burger header__burger">
+          <button type="button" class="burger__button">
+            <img
+              src="img/burger.svg"
+              class="burger__image"
+              alt="картинка меню бургер"
+            />
+          </button>
+        </div>
+        <!-- DIVIDER FIX -->
+        <div class="divider divider__tablet">
+          <img src="img/divider.svg" class="header__divider" alt="" />
+        </div>
+        <!-- DIVIDER END -->
+        <div class="logo header__logo">
+          <button type="button" class="logo__button">
+            <img
+              src="img/logo.svg"
+              class="logo__image"
+              alt="Картинка - логотип"
+            />
+          </button>
+        </div>
+        <!-- TABLET GROUP -->
+        <div class="header__tablet-group">
+          <div class="call header__call">
+            <button type="button" class="call__button">
+              <img
+                src="img/call.svg"
+                class="call__image"
+                alt="Кнопка позвонить нам"
+              />
+            </button>
+          </div>
+          <div class="chat header__chat">
+            <button type="button" class="chat__button">
+              <img
+                src="img/chat.svg"
+                class="chat__image"
+                alt="кнопка написать нам"
+              />
+            </button>
+          </div>
+          <div class="profile header__profile">
+            <button type="button" class="profile__button">
+              <img
+                src="img/profile.svg"
+                class="profile__image"
+                alt="Кнопка перейти в профиль"
+              />
+            </button>
+          </div>
+        </div>
+        <!-- TABLET END -->
+
+        <!-- DIVIDER FIX -->
+        <div class="divider divider__tablet">
+          <img src="img/divider.svg" class="header__divider" alt="" />
+        </div>
+        <!-- DIVIDER END -->
+
+        <div class="divider mobile--divider">
+          <img src="img/divider.svg" class="header__divider" alt="" />
+        </div>
+        <div class="repair-request header__repair-request">
+          <button type="button" class="repair__button">
+            <img
+              src="img/repair-request.svg"
+              class="repair-request__image"
+              alt="кнопка оставить заявку"
+            />
+          </button>
+        </div>
+        <div class="repair-status header__repair-status">
+          <button type="button" class="repair-status__button">
+            <img
+              src="img/repair-status.svg"
+              class="repair-status__image"
+              alt="кнопка статус ремонта"
+            />
+          </button>
+        </div>
+      </header>
+      <main class="main">
+        <div class="title-wrapper">
+          <h1 class="title title__main">Услуги и сервисы</h1>
+
+          <!-- DESKTOP FIX -->
+          <div class="desktop">
+            <div class="repair-request title-wrapper__repair-request">
+              <button
+                type="button"
+                class="repair__button repair__button--desktop"
+              >
+                <div class="repair__desktop-text">Оставить заявку</div>
+                <img
+                  src="img/repair-request.svg"
+                  alt="кнопка оставить заявку"
+                />
+              </button>
+            </div>
+            <div class="repair-status title-wrapper-status">
+              <button
+                type="button"
+                class="repair-status__button repair-status__button--desktop"
+              >
+                <div class="repair__desktop-text">Статус ремонта</div>
+                <img src="img/repair-status.svg" alt="кнопка статус ремонта" />
+              </button>
+            </div>
+            <!-- DESKTOP FIX -->
+          </div>
+        </div>
+        <div class="services">
+          <button
+            type="button"
+            class="services__repairing-brands services__button services__button--selected"
+          >
+            Ремонтируемые устройства
+          </button>
+          <button
+            type="button"
+            class="services__repairing-devices services__button"
+          >
+            Дополнительные услуги
+          </button>
+          <button
+            type="button"
+            class="services__price services__button services__"
+          >
+            Цены на услуги
+          </button>
+          <button type="button" class="services__location services__button">
+            Адреса сервисных центров
+          </button>
+          <button
+            type="button"
+            class="services__special-prices services__button"
+          >
+            Специальные цены
+          </button>
+          <button type="button" class="services__rewiews services__button">
+            отзывы
+          </button>
+        </div>
+        <article class="dell-info">
+          <div class="dell-info__text">
+            <p class="dell-info__paragraph">
+              Мы являемся авторизованным сервисным центром по ремонту техники
+              Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+              официальной гарантией производителя.
+            </p>
+            <p class="dell-info__paragraph--tablet">
+              Мы успешно работаем с 1992 года и заслужили репутацию надежного
+              партнера<span class="dell-info__text-desktop">что подтверждает большое количество 
+              постоянных клиентов. Мы гордимся тем, что к нам обращаются по 
+              рекомендациям и, в свою очередь, советуют нас родным и близким.</span>
+            </p>
+            
+            <button type="button" class="dell-info__button">
+              <img
+                src="img/read-more.svg"
+                class="dell-info__button-image"
+                alt="Кнопка читать далее"
+              />
+              <h2 class="dell-info__read-more">Читать далее</h2>
+            </button>
+          </div>
+          <div class="dell-info-image-wrapper">
+            <img
+              src="img/spc-real-photo.png"
+              class="info-image"
+              alt="фото офиса SPC"
+            />
+          </div>
+        </article>
+      </main>
+    </div>
+  </body>
+</html>
